@@ -2,18 +2,18 @@
 	var app = {
 		init : function(){
 			this.watcher();
-			// this.button1();
- 		   this.hide();
+			 this.button1();
+ 		     this.hide();
  		console.log("hello world");
  	},
  	watcher : function(){
  		$('button').on("click",this.test.bind(this))
- 		$("#p1").on("click",this.button1.bind(this));
- 		$("#p2").on("click",this.button2.bind(this));
- 		$("#p3").on("click",this.button3.bind(this));
- 		$("#p4").on("click",this.button4.bind(this));
- 		$("#p5").on("click",this.button5.bind(this));
- 		$("#p6").on("click",this.button6.bind(this));
+ 		$("#btn1").on("click",this.button1.bind(this));
+ 		$("#btn2").on("click",this.button2.bind(this));
+ 		$("#btn3").on("click",this.button3.bind(this));
+ 		$("#btn4").on("click",this.button4.bind(this));
+ 		$("#btn5").on("click",this.button5.bind(this));
+ 		$("#btn6").on("click",this.button6.bind(this));
 
  	},
  	test : function(){
