@@ -6,7 +6,7 @@ text-align: center;
 }
 
 h1{
-	color: white;
+	color: black;
 }
 #title{
 	text-align: center;
@@ -14,8 +14,6 @@ h1{
 	width: 100%;
 	height: 80px;
 	border: 1px solid black;
-
-	background-color: purple;
 
 }
 
@@ -27,13 +25,23 @@ h1{
 
 
 }
+#squel2{
+	margin-left: 40%;
+	height: 70%;
+	width: 20%;
+}
+#formulaire{
+	text-align: center;
+}
+
 #footer{
 	
 	text-align:center; 
-	color: white; 
+	color: black; 
 	width: 100%; 
 	height:80px; 
 	border : 1px solid black;
+
 	background-color:purple; 
 }
 
@@ -105,4 +113,3 @@ h1{
  position: absolute;
  margin-left: 747px;
  margin-top: 372px;
-}
