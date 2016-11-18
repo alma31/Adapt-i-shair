@@ -11,6 +11,11 @@ text-align: center;
 	background-image: url(color.jpg);
 }
 
+p {
+
+	font-size: 20px;
+}
+
 h1{
 	font-size: 90px;
 	color: #004e66;
@@ -27,8 +32,7 @@ h2{
 	color: white;
 	width: 100%;
 	height: 80px;
-	border: 1px solid black;
-	background-color: #fcbe32;
+	background-color: white;
 
 }
 #form{
@@ -64,11 +68,9 @@ h2{
 	text-align:center; 
 	color: #004e66; 
 	width: 100%; 
-	height:80px; 
-	border : 1px solid black;
 	border-bottom: 0%;
 
-	background-color:#fcbe32; 
+	background-color:white; 
 }
 
 #btn1 {
@@ -97,8 +99,8 @@ h2{
  border-radius: 100%;
  background-color:  #004e66;
  position: absolute;
- margin-left: 7px;
- margin-top: 230px;
+ margin-left: 761px;
+ margin-top: 223px;
 }
 
 #btn4 {
@@ -107,7 +109,7 @@ h2{
  border-radius: 100%;
  background-color:  #004e66;
  position: absolute;
- margin-left: 753px;
+ margin-left: 760px;
  margin-top: 290px;
 }
 
@@ -118,7 +120,7 @@ h2{
  background-color:  #004e66;
  position: absolute;
  margin-left: 630px;
- margin-top: 234px;
+ margin-top: 244px;
 }
 
 #btn6 {
@@ -128,7 +130,7 @@ h2{
  background-color:  #004e66;
  position: absolute;
  margin-left: 875px;
- margin-top: 234px;
+ margin-top: 260px;
 }
 
 #btn7 {
