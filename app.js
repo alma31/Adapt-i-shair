@@ -16,7 +16,6 @@
  		$("#p6").on("click",this.button6.bind(this));
 
  	},
-
  	test : function(){
  		
  		// this.hide();
@@ -41,8 +40,7 @@
  		console.log("1")
  		$('#input1').show();
 
- 		
- 		
+ 	
  	},
  	button2 : function(){
  		$('#input2').show();
