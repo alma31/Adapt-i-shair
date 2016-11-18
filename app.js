@@ -4,6 +4,8 @@
 			this.watcher();
 			 this.button1();
  		     this.hide();
+ 		     // this.clignote()
+ 		     app.interCli();
  		console.log("hello world");
  	},
  	watcher : function(){
@@ -97,7 +99,21 @@
  	hideinput6 : function(){
  		$('#input6').hide();
  	},
+ 	interCli :function(){
+ 		app.clignote()
+ 		setInterval(app.clignote(), 1000) 
+ 	},    
+    clignote: function(){
+    $("#btn7").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn6").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn5").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn4").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn3").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn2").fadeOut(900).delay(300).fadeIn(800);
+    $("#btn1").fadeOut(900).delay(300).fadeIn(800); 
+    app.interCli();
 
+    },
 
  };
 
