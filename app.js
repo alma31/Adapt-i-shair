@@ -2,24 +2,24 @@
 	var app = {
 		init : function(){
 			this.watcher();
-			 this.button1();
- 		     this.hide();
+            this.button1();
+            this.hide();
  		     // this.clignote()
  		     app.interCli();
- 		console.log("hello world");
- 	},
- 	watcher : function(){
- 		$('button').on("click",this.test.bind(this))
- 		$("#btn1").on("click",this.button1.bind(this));
- 		$("#btn2").on("click",this.button2.bind(this));
- 		$("#btn3").on("click",this.button3.bind(this));
- 		$("#btn4").on("click",this.button4.bind(this));
- 		$("#btn5").on("click",this.button5.bind(this));
- 		$("#btn6").on("click",this.button6.bind(this));
+              console.log("hello world");
+          },
+          watcher : function(){
+             $('button').on("click",this.test.bind(this))
+             $("#btn1").on("click",this.button1.bind(this));
+             $("#btn2").on("click",this.button2.bind(this));
+             $("#btn3").on("click",this.button3.bind(this));
+             $("#btn4").on("click",this.button4.bind(this));
+             $("#btn5").on("click",this.button5.bind(this));
+             $("#btn6").on("click",this.button6.bind(this));
 
- 	},
- 	test : function(){
- 		
+         },
+         test : function(){
+             
  		// this.hide();
  	},
 
@@ -42,7 +42,7 @@
  		console.log("1")
  		$('#input1').show();
 
- 	
+      
  	},
  	button2 : function(){
  		$('#input2').show();
@@ -104,19 +104,19 @@
  		setInterval(app.clignote(), 1000) 
  	},    
     clignote: function(){
-    $("#btn7").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn6").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn5").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn4").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn3").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn2").fadeOut(900).delay(300).fadeIn(800);
-    $("#btn1").fadeOut(900).delay(300).fadeIn(800); 
-    app.interCli();
+        $("#btn7").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn6").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn5").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn4").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn3").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn2").fadeOut(900).delay(300).fadeIn(800);
+        $("#btn1").fadeOut(900).delay(300).fadeIn(800); 
+        app.interCli();
 
     },
 
- };
+};
 
 
- app.init()
+app.init()
 })();
