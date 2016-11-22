@@ -81,6 +81,7 @@ h2{
 	border-bottom: 0%;
 	font-size: 30px;
 	background-color:white; 
+	margin-top: 60px;
 }
 
 #btn1 {
@@ -168,4 +169,21 @@ h2{
 
 #option{
 	height: 400px;
+}
+/*p{
+	text-align: center;
+	width: 50%;
+}*/
+.letext{
+display: flex;
+width: 50%;
+text-align: center;
+}
+.text{
+margin: 20%;
+margin-top: 100px;
+}
+#button{
+	
+text-align: center;
 }
