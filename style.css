@@ -170,10 +170,10 @@ h2{
 #option{
 	height: 400px;
 }
-/*p{
-	text-align: center;
-	width: 50%;
+/*
+---------------------------bienvenue.html-----------------------------
 }*/
+
 .letext{
 display: flex;
 width: 50%;
@@ -186,4 +186,7 @@ margin-top: 100px;
 #button{
 	
 text-align: center;
+}
+#interface{
+	height:300px;
 }
